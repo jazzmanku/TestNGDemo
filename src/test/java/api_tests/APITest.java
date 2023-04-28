@@ -1,15 +1,16 @@
+package api_tests;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestNGTest {
-
+public class APITest {
     @Test
-    public void DummyTestingThatIsPassing(){
+    public void API_TestingThatIsPassing(){
         Assert.assertTrue(true);
     }
 
     @Test
-    public void DummyTestingThatIsFailing(){
+    public void API_TestingThatIsFailing(){
         Assert.assertTrue(false);
     }
 }
