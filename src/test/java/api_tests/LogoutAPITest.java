@@ -3,19 +3,19 @@ package api_tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginAPITest {
+public class LogoutAPITest {
     @Test
-    public void Login_API_TestingThatIsPassing(){
+    public void Logout_API_TestingThatIsPassing(){
         Assert.assertTrue(true);
     }
 
     @Test
-    public void Login_API_TestingThatIsFailing(){
+    public void Logout_API_TestingThatIsFailing(){
         Assert.assertTrue(false);
     }
 
     @Test
-    public void Login_API_TestingThatIsPassing2(){
+    public void Logout_API_TestingThatIsPassing2(){
         Assert.assertTrue(true);
     }
 
