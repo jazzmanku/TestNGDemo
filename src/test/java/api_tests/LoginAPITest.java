@@ -13,4 +13,10 @@ public class LoginAPITest {
     public void Login_API_TestingThatIsFailing(){
         Assert.assertTrue(false);
     }
+
+    @Test
+    public void Login_API_TestingThatIsPassing2(){
+        Assert.assertTrue(true);
+    }
+
 }
